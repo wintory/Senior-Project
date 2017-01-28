@@ -5,7 +5,7 @@ import '../css/App.css';
 import {Todo} from '../Todo';
 import '../css/citydetail.css';
 import {Card} from './Card';
-import {logo} from './logo.png';
+import logo from '../logo.png';
 import {Link} from 'react-router';
 
 export default class CityDetail extends Component {
@@ -19,7 +19,7 @@ export default class CityDetail extends Component {
        <div className="container">
                   <div className="card clearfix activity second city-card">
                     <Link to="/ActivityDetail">
-                      <div className="tab-page" name="bangkok"> <img src="{logo}"/>
+                      <div className="tab-page" name="bangkok"> <img src={logo}/>
                       <div>
                         <h2>Activity1</h2>
                       </div>
@@ -28,7 +28,7 @@ export default class CityDetail extends Component {
                   </div>
                   <div className="card clearfix activity second city-card">
                     <Link to="/ActivityDetail">
-                      <div className="second tab-page" name="bangkok"> <img src="{logo}"/>
+                      <div className="second tab-page" name="bangkok"> <img src={logo}/>
                           <div>
                         <h2>Activity2</h2>
                       </div>
@@ -37,7 +37,7 @@ export default class CityDetail extends Component {
                   </div>
                   <div className="card clearfix activity second city-card">
                     <Link to="/ActivityDetail">
-                      <div className="second tab-page" name="bangkok"> <img src="{logo}"/>
+                      <div className="second tab-page" name="bangkok"> <img src={logo}/>
                         <div>
                         <h2>Activity3</h2>
                       </div>
