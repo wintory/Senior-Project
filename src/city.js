@@ -11,13 +11,14 @@ export class City extends Component {
     return(
       <div>
       <h3>Choose Your City</h3>
-                   <Link to="/citydetail">
-                     <div cityName="bangkok">Bangkok</div>
-                   </Link>
-                   <Link to="/citydetail">
+
+                   <Link to="/*">
                      <div cityName="chiangmai">Chiang Mai</div>
                    </Link>
+
+
       </div>
+
 
     );
   }
